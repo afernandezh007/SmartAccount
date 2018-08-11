@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>api-smartaccount-parent</artifactId>
+        <groupId>com.neomegatrion.smartaccount</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <name>Business Module</name>
+    <artifactId>api-smartaccount-business</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.neomegatrion.smartaccount</groupId>
+            <artifactId>api-smartaccount-data</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.neomegatrion.smartaccount</groupId>
+            <artifactId>api-smartaccount-report</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
