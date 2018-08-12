@@ -7,6 +7,10 @@
 	<artifactId>api-smartaccount-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<!--=============================================================================================================-->
+	<!--API Modules-->
+	<!--=============================================================================================================-->
+
     <modules>
         <module>api-smartaccount-rest</module>
         <module>api-smartaccount-business</module>
@@ -33,7 +37,13 @@
 		<spring-cloud.version>Finchley.SR1</spring-cloud.version>
 	</properties>
 
+	<!--=============================================================================================================-->
+	<!--Dependencies-->
+	<!--=============================================================================================================-->
+
 	<dependencies>
+
+		<!--Spring Boot Starters-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -47,13 +57,7 @@
 			<artifactId>spring-cloud-starter</artifactId>
 		</dependency>
 
-		<!-- Mysql -->
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-		</dependency>
-
-		<!--test-->
+		<!--Scope Test only-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -65,6 +69,10 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<!--=============================================================================================================-->
+	<!--Dependencies Management-->
+	<!--=============================================================================================================-->
 
 	<dependencyManagement>
 		<dependencies>

@@ -11,6 +11,9 @@
     <name>Business Module</name>
     <artifactId>api-smartaccount-business</artifactId>
 
+    <!--=============================================================================================================-->
+    <!--Dependencies-->
+    <!--=============================================================================================================-->
     <dependencies>
         <dependency>
             <groupId>com.neomegatrion.smartaccount</groupId>

@@ -11,6 +11,19 @@
     <name>API Launcher Module</name>
     <artifactId>api-smartaccount-launcher</artifactId>
 
+    <!--=============================================================================================================-->
+    <!--Dependencies-->
+    <!--=============================================================================================================-->
+    <dependencies>
+        <dependency>
+            <groupId>com.neomegatrion.smartaccount</groupId>
+            <artifactId>api-smartaccount-data</artifactId>
+        </dependency>
+    </dependencies>
+
+    <!--=============================================================================================================-->
+    <!--Build section to do executable the jar-->
+    <!--=============================================================================================================-->
     <build>
         <plugins>
             <plugin>
